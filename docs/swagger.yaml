@@ -1,0 +1,566 @@
+definitions:
+  models.Comments:
+    properties:
+      comment:
+        type: string
+      interest:
+        type: boolean
+      job_id:
+        type: integer
+      user_id:
+        type: integer
+    type: object
+  models.Information:
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+      phone_number:
+        type: string
+      role:
+        type: string
+      username:
+        type: string
+    type: object
+  models.Jobposting:
+    properties:
+      city:
+        type: string
+      company_name:
+        type: string
+      country:
+        type: string
+      description:
+        type: string
+      email:
+        type: string
+      job_title:
+        type: string
+      job_type:
+        type: string
+      state:
+        type: string
+      website:
+        type: string
+    type: object
+host: localhost:8000
+info:
+  contact:
+    email: fiber@swagger.io
+    name: API Support
+  description: This is a sample swagger for ECHO
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: echo Example API
+  version: "2.0"
+paths:
+  /deletecommentbyid/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: only user can delete job post comments
+      parameters:
+      - description: commentid
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      summary: delete user comments by id
+      tags:
+      - deleteusercommentsbyid
+  /deletejobpostbyid/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: only admin can delete jobs post
+      parameters:
+      - description: job-id
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Status Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Delete job posting
+      tags:
+      - DeleteJobPosting
+  /getallcomments:
+    get:
+      consumes:
+      - application/json
+      description: only user and admin can view the job post comments
+      parameters:
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      summary: get user comments
+      tags:
+      - getallusercomments
+  /getcommentsbyid/{id}:
+    get:
+      consumes:
+      - application/json
+      description: only user and admin can view the job post comments by id
+      parameters:
+      - description: getcomments
+        in: body
+        name: getcomments
+        required: true
+        schema:
+          $ref: '#/definitions/models.Comments'
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: commentid
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      summary: get user comments by id
+      tags:
+      - getusercommentsbyid
+  /getjobpostbycompanyname/{companyname}:
+    get:
+      consumes:
+      - application/json
+      description: only admin can delete jobs post
+      parameters:
+      - description: companyname
+        in: path
+        name: companyname
+        required: true
+        type: string
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      summary: job posting from company
+      tags:
+      - GetSpecificCompanyJobPost
+  /getjobpostbyid/{id}:
+    get:
+      consumes:
+      - application/json
+      description: both admin and user can get jobs post
+      parameters:
+      - description: job-id
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: StatusNotFound
+          schema:
+            additionalProperties: true
+            type: object
+      summary: getjobpostbyid
+      tags:
+      - getJobpostbyid
+  /getjobposts:
+    get:
+      consumes:
+      - application/json
+      description: both admin and user can get jobs post
+      parameters:
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: StatusNotFound
+          schema:
+            additionalProperties: true
+            type: object
+      summary: getjobpost
+      tags:
+      - getJobpost
+  /jobposting:
+    post:
+      consumes:
+      - application/json
+      description: only admin can post jobs
+      parameters:
+      - description: postjob
+        in: body
+        name: postjob
+        required: true
+        schema:
+          $ref: '#/definitions/models.Jobposting'
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Status Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Status Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: jobposting API
+      tags:
+      - Jobposting
+  /login:
+    post:
+      consumes:
+      - application/json
+      description: Registered Users can login here
+      parameters:
+      - description: login
+        in: body
+        name: login
+        required: true
+        schema:
+          $ref: '#/definitions/models.Information'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Status Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Status Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Login API
+      tags:
+      - Login
+  /signup:
+    post:
+      consumes:
+      - application/json
+      description: New Users can register here
+      parameters:
+      - description: signup
+        in: body
+        name: signup
+        required: true
+        schema:
+          $ref: '#/definitions/models.Information'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Status Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: signup API
+      tags:
+      - Signup
+  /updatecommentbyid/{id}:
+    put:
+      consumes:
+      - application/json
+      description: only user can update comment post
+      parameters:
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: commentid
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Status Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: update user comments by id
+      tags:
+      - updateusercommentsbyid
+  /updatejobpostbyid/{id}:
+    put:
+      consumes:
+      - application/json
+      description: only admin can update jobs post
+      parameters:
+      - description: job-id
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Status Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Status Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Update job posting
+      tags:
+      - UpdateJobPosting
+  /user/comments:
+    post:
+      consumes:
+      - application/json
+      description: only user post comments on jobs
+      parameters:
+      - description: postcomments
+        in: body
+        name: postcomments
+        required: true
+        schema:
+          $ref: '#/definitions/models.Comments'
+      - description: string
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Status Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Status Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Status Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      summary: user comments on jobs
+      tags:
+      - postcomments
+securityDefinitions:
+  Bearer:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

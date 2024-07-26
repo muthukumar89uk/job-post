@@ -1,0 +1,221 @@
+[INFO]: 14-09-2023 15:29:32 - database connection sucessfull
+[INFO]: 14-09-2023 15:36:16 - database connection sucessfull
+[INFO]: 14-09-2023 15:36:42 - database connection sucessfull
+[INFO]: 14-09-2023 15:41:21 - database connection sucessfull
+[INFO]: 14-09-2023 15:45:38 - database connection sucessfull
+[INFO]: 14-09-2023 15:49:02 - database connection sucessfull
+[INFO]: 14-09-2023 15:49:13 - database connection sucessfull
+[INFO]: 14-09-2023 15:58:40 - database connection sucessfull
+[INFO]: 14-09-2023 16:04:43 - database connection sucessfull
+[INFO]: 14-09-2023 16:06:31 - database connection sucessfull
+[INFO]: 14-09-2023 16:08:09 - database connection sucessfull
+[INFO]: 14-09-2023 16:30:40 - database connection sucessfull
+[INFO]: 14-09-2023 16:37:41 - database connection sucessfull
+[INFO]: 14-09-2023 16:39:41 - database connection sucessfull
+[INFO]: 14-09-2023 16:41:53 - database connection sucessfull
+[INFO]: 14-09-2023 16:42:48 - database connection sucessfull
+[INFO]: 14-09-2023 16:43:42 - database connection sucessfull
+[INFO]: 14-09-2023 16:44:20 - database connection sucessfull
+[INFO]: 14-09-2023 16:44:27 - database connection sucessfull
+[INFO]: 14-09-2023 16:45:13 - database connection sucessfull
+[INFO]: 14-09-2023 16:47:00 - database connection sucessfull
+[INFO]: 14-09-2023 16:47:30 - database connection sucessfull
+[INFO]: 14-09-2023 16:49:22 - database connection sucessfull
+[INFO]: 14-09-2023 16:50:05 - database connection sucessfull
+[INFO]: 14-09-2023 17:03:53 - database connection sucessfull
+[INFO]: 14-09-2023 17:10:03 - database connection sucessfull
+[INFO]: 14-09-2023 17:13:08 - database connection sucessfull
+[INFO]: 14-09-2023 17:19:33 - database connection sucessfull
+[INFO]: 14-09-2023 17:19:37 - Signup api called successfully
+[ERROR]: 14-09-2023 17:19:37 - error:'Password should be more than 8 characters' status:400
+[INFO]: 14-09-2023 17:19:59 - Signup api called successfully
+[ERROR]: 14-09-2023 17:19:59 - error:'Invalid Email Format' status:400
+[INFO]: 14-09-2023 17:41:29 - database connection sucessfull
+[INFO]: 14-09-2023 17:42:13 - Signup api called successfully
+[ERROR]: 14-09-2023 17:42:13 - error:'Password should be more than 8 characters' status:400
+[INFO]: 14-09-2023 17:42:36 - Signup api called successfully
+[INFO]: 14-09-2023 17:42:36 - message:'sign up successfull' status:200
+[INFO]: 14-09-2023 17:42:47 - Signup api called successfully
+[ERROR]: 14-09-2023 17:42:47 - error:'' status:400
+[INFO]: 14-09-2023 17:43:08 - Signup api called successfully
+[ERROR]: 14-09-2023 17:43:09 - error:'Invalid phone number format' status:400
+[INFO]: 14-09-2023 17:43:22 - Signup api called successfully
+[ERROR]: 14-09-2023 17:43:22 - error:'Username field should not be empty' status:400
+[INFO]: 14-09-2023 17:43:26 - Signup api called successfully
+[INFO]: 14-09-2023 17:43:27 - message:'sign up successfull' status:200
+[INFO]: 14-09-2023 17:58:01 - database connection sucessfull
+[INFO]: 14-09-2023 18:00:23 - database connection sucessfull
+[INFO]: 14-09-2023 18:00:32 - login api called successfully
+[ERROR]: 14-09-2023 18:00:33 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:00:34 - login api called successfully
+[ERROR]: 14-09-2023 18:00:34 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:00:35 - login api called successfully
+[ERROR]: 14-09-2023 18:00:35 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:00:36 - login api called successfully
+[ERROR]: 14-09-2023 18:00:36 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:00:36 - login api called successfully
+[ERROR]: 14-09-2023 18:00:36 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:00:37 - login api called successfully
+[ERROR]: 14-09-2023 18:00:37 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:00:37 - login api called successfully
+[ERROR]: 14-09-2023 18:00:37 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:00:37 - login api called successfully
+[ERROR]: 14-09-2023 18:00:37 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:38:20 - database connection sucessfull
+[INFO]: 14-09-2023 18:39:54 - login api called successfully
+[ERROR]: 14-09-2023 18:39:54 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:56 - login api called successfully
+[ERROR]: 14-09-2023 18:39:56 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:56 - login api called successfully
+[ERROR]: 14-09-2023 18:39:56 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:56 - login api called successfully
+[ERROR]: 14-09-2023 18:39:56 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:57 - login api called successfully
+[ERROR]: 14-09-2023 18:39:57 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:57 - login api called successfully
+[ERROR]: 14-09-2023 18:39:57 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:57 - login api called successfully
+[ERROR]: 14-09-2023 18:39:57 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:58 - login api called successfully
+[ERROR]: 14-09-2023 18:39:58 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:58 - login api called successfully
+[ERROR]: 14-09-2023 18:39:58 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:59 - login api called successfully
+[ERROR]: 14-09-2023 18:39:59 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:39:59 - login api called successfully
+[ERROR]: 14-09-2023 18:39:59 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:40:00 - login api called successfully
+[ERROR]: 14-09-2023 18:40:00 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:40:00 - login api called successfully
+[ERROR]: 14-09-2023 18:40:00 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:40:01 - login api called successfully
+[ERROR]: 14-09-2023 18:40:01 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:40:01 - login api called successfully
+[ERROR]: 14-09-2023 18:40:01 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:40:02 - login api called successfully
+[ERROR]: 14-09-2023 18:40:02 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:40:03 - login api called successfully
+[ERROR]: 14-09-2023 18:40:03 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:40:51 - Signup api called successfully
+[ERROR]: 14-09-2023 18:40:51 - error:'Invalid phone number format' status:400
+[INFO]: 14-09-2023 18:40:58 - Signup api called successfully
+[INFO]: 14-09-2023 18:40:58 - message:'sign up successfull' status:200
+[INFO]: 14-09-2023 18:41:05 - login api called successfully
+[ERROR]: 14-09-2023 18:41:05 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:06 - login api called successfully
+[ERROR]: 14-09-2023 18:41:06 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:06 - login api called successfully
+[ERROR]: 14-09-2023 18:41:06 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:06 - login api called successfully
+[ERROR]: 14-09-2023 18:41:06 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:07 - login api called successfully
+[ERROR]: 14-09-2023 18:41:07 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:07 - login api called successfully
+[ERROR]: 14-09-2023 18:41:07 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:09 - login api called successfully
+[ERROR]: 14-09-2023 18:41:09 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:09 - login api called successfully
+[ERROR]: 14-09-2023 18:41:09 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:09 - login api called successfully
+[ERROR]: 14-09-2023 18:41:09 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:09 - login api called successfully
+[ERROR]: 14-09-2023 18:41:09 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:10 - login api called successfully
+[ERROR]: 14-09-2023 18:41:10 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:14 - login api called successfully
+[ERROR]: 14-09-2023 18:41:14 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:41:14 - login api called successfully
+[ERROR]: 14-09-2023 18:41:14 - error:'login failed' status:400
+[INFO]: 14-09-2023 18:42:00 - database connection sucessfull
+[INFO]: 14-09-2023 18:42:46 - login api called successfully
+[ERROR]: 14-09-2023 18:42:46 - error:'Password Not Matching' status:400
+[INFO]: 14-09-2023 18:42:56 - login api called successfully
+[INFO]: 14-09-2023 18:42:56 - message:'Login Successful' status:200
+[INFO]: 14-09-2023 18:53:23 - database connection sucessfull
+[INFO]: 14-09-2023 18:54:31 - database connection sucessfull
+[INFO]: 14-09-2023 18:55:21 - database connection sucessfull
+[INFO]: 14-09-2023 18:57:14 - Signup api called successfully
+[ERROR]: 14-09-2023 18:57:14 - error:'user already exist' status:400
+[INFO]: 14-09-2023 18:57:27 - Signup api called successfully
+[INFO]: 14-09-2023 18:57:27 - message:'sign up successfull' status:200
+[INFO]: 14-09-2023 18:58:52 - database connection sucessfull
+[INFO]: 14-09-2023 19:00:29 - database connection sucessfull
+[INFO]: 14-09-2023 19:03:48 - database connection sucessfull
+[INFO]: 14-09-2023 19:05:37 - Signup api called successfully
+[INFO]: 14-09-2023 19:05:38 - message:'sign up successfull' status:200
+[INFO]: 14-09-2023 19:06:04 - login api called successfully
+[INFO]: 14-09-2023 19:06:05 - message:'Login Successful' status:200
+[INFO]: 14-09-2023 19:06:36 - database connection sucessfull
+[INFO]: 14-09-2023 19:08:29 - job posting api called successfully
+[ERROR]: 14-09-2023 19:08:29 - error:'only admin have the access' status:401
+[INFO]: 14-09-2023 19:09:26 - Signup api called successfully
+[INFO]: 14-09-2023 19:09:27 - message:'sign up successfull' status:200
+[INFO]: 14-09-2023 19:09:44 - login api called successfully
+[INFO]: 14-09-2023 19:09:44 - message:'Login Successful' status:200
+[INFO]: 14-09-2023 19:10:14 - job posting api called successfully
+[ERROR]: 14-09-2023 19:10:14 - error:'invalid Email format' status:400
+[INFO]: 14-09-2023 19:10:26 - job posting api called successfully
+[INFO]: 14-09-2023 19:10:26 - error:'Job Details Successfully Posted' status:200
+[INFO]: 14-09-2023 19:19:05 - database connection sucessfull
+[INFO]: 14-09-2023 19:20:02 - database connection sucessfull
+[INFO]: 14-09-2023 19:20:46 - GetJobPostingDetails called successfully
+[INFO]: 14-09-2023 19:22:28 - database connection sucessfull
+[INFO]: 14-09-2023 19:23:52 - database connection sucessfull
+[INFO]: 14-09-2023 19:43:16 - database connection sucessfull
+[INFO]: 14-09-2023 19:59:25 - database connection sucessfull
+[INFO]: 14-09-2023 20:00:10 - GetJobPostingbyID API  called successfully
+[INFO]: 14-09-2023 20:14:36 - database connection sucessfull
+[INFO]: 14-09-2023 20:14:58 - GetJobPostingbyID API  called successfully
+[ERROR]: 14-09-2023 20:14:58 - error:'job post does not exist' status:404
+[INFO]: 14-09-2023 20:15:03 - GetJobPostingbyID API  called successfully
+[INFO]: 15-09-2023 11:19:35 - database connection sucessfull
+[INFO]: 15-09-2023 11:46:53 - database connection sucessfull
+[INFO]: 15-09-2023 13:29:07 - database connection sucessfull
+[INFO]: 15-09-2023 13:38:27 - database connection sucessfull
+[INFO]: 15-09-2023 13:39:27 - database connection sucessfull
+[INFO]: 15-09-2023 13:44:17 - database connection sucessfull
+[INFO]: 15-09-2023 13:45:59 - database connection sucessfull
+[INFO]: 15-09-2023 13:47:35 - database connection sucessfull
+[INFO]: 15-09-2023 13:53:26 - database connection sucessfull
+[INFO]: 15-09-2023 15:15:05 - database connection sucessfull
+[INFO]: 15-09-2023 15:17:44 - database connection sucessfull
+[INFO]: 01-04-2024 20:41:55 - database connection sucessfull
+[INFO]: 20-06-2024 12:25:43 - database connection sucessfull
+[INFO]: 20-06-2024 12:36:04 - Signup api called successfully
+[ERROR]: 20-06-2024 12:36:04 - error:'Password should be more than 8 characters' status:400
+[INFO]: 20-06-2024 12:36:13 - Signup api called successfully
+[INFO]: 20-06-2024 12:36:13 - message:'sign up successfull' status:200
+[INFO]: 20-06-2024 12:37:04 - login api called successfully
+[INFO]: 20-06-2024 12:37:04 - message:'Login Successful' status:200
+[INFO]: 20-06-2024 12:37:27 - job posting api called successfully
+[ERROR]: 20-06-2024 12:37:27 - error:'only admin have the access' status:401
+[INFO]: 20-06-2024 12:37:49 - Signup api called successfully
+[INFO]: 20-06-2024 12:37:49 - message:'sign up successfull' status:200
+[INFO]: 20-06-2024 12:37:55 - login api called successfully
+[INFO]: 20-06-2024 12:37:55 - message:'Login Successful' status:200
+[INFO]: 20-06-2024 12:38:06 - job posting api called successfully
+[ERROR]: 20-06-2024 12:38:06 - error:'invalid Email format' status:400
+[INFO]: 20-06-2024 12:38:27 - job posting api called successfully
+[INFO]: 20-06-2024 12:38:27 - error:'Job Details Successfully Posted' status:200
+[ERROR]: 26-07-2024 15:45:30 - error in connecting with database
+[ERROR]: 26-07-2024 15:45:30 - failed to connecting the database
+[INFO]: 26-07-2024 15:46:15 - database connection sucessfull
+[INFO]: 26-07-2024 15:49:29 - Signup api called successfully
+[INFO]: 26-07-2024 15:49:29 - message:'sign up successfull' status:200
+[INFO]: 26-07-2024 15:50:47 - Signup api called successfully
+[INFO]: 26-07-2024 15:50:47 - message:'sign up successfull' status:200
+[INFO]: 26-07-2024 15:52:50 - login api called successfully
+[INFO]: 26-07-2024 15:52:50 - message:'Login Successful' status:200
+[INFO]: 26-07-2024 15:57:26 - job posting api called successfully
+[ERROR]: 26-07-2024 15:57:26 - error:'field details missing' status:400
+[INFO]: 26-07-2024 15:57:54 - job posting api called successfully
+[INFO]: 26-07-2024 15:57:54 - error:'Job Details Successfully Posted' status:200
+[INFO]: 26-07-2024 15:58:16 - job posting api called successfully
+[INFO]: 26-07-2024 15:58:16 - error:'Job Details Successfully Posted' status:200
+[INFO]: 26-07-2024 15:59:14 - database connection sucessfull
+[INFO]: 26-07-2024 15:59:19 - job posting api called successfully
+[INFO]: 26-07-2024 15:59:19 - Success:'Job Details Successfully Posted' status:200
+[INFO]: 26-07-2024 16:00:18 - login api called successfully
+[INFO]: 26-07-2024 16:00:18 - message:'Login Successful' status:200
+[INFO]: 26-07-2024 16:02:34 - UserComments API called successfully
+[INFO]: 26-07-2024 16:02:34 - message:'comment posted successfully' status:200

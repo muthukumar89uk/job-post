@@ -1,4 +1,6 @@
+# **Job-Posting with echo web-framework**
 
+Clone the git repo - `git clone https://github.com/muthukumar89uk/job-post.git` - or [download it](https://github.com/muthukumar89uk/job-post/zipball/master).
 
 ## General view about the Job Site Project
 
@@ -29,6 +31,10 @@ The Job Site Real Time Exercise Task project is built using the following techno
 ## Setup
 
 The application will be accessible at `http://localhost:8080`.
+
+## Run Swagger
+ 
+ Using the `http://localhost:8080/swagger/index.html` URL to run the swagger.
 
  ##  Project explanation
 
