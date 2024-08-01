@@ -12,6 +12,29 @@ The backend includes functionalities to sign up, login, post job details, view j
 
 update and delete job postings and comments.
 
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/muthukumar89uk/job-post.git
+   ```
+Click here to directly [download it](https://github.com/muthukumar89uk/job-post/zipball/master).
+
+## Install dependencies:
+
+          go mod tidy
+
+## Run the Application
+  1. Run the Server
+   
+       ```
+          go run .
+       ```   
+  2. The server will start on `http://localhost:8000`.
+
 ## Technology Stack
 
 The Job Site Real Time Exercise Task project is built using the following technologies:
@@ -26,11 +49,6 @@ The Job Site Real Time Exercise Task project is built using the following techno
 
 - **postgres**: PostgreSQL is an advanced, enterprise class open source relational database that supports both SQL and JSON  querying. 
                 It is a highly stable database management system, which has contributed to its high levels of resilience,and correctness. 
-   
-
-## Setup
-
-The application will be accessible at `http://localhost:8080`.
 
 ## Run Swagger
  
